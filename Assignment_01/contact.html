@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <div class="max-w-6xl mx-auto">
+      <h1
+        class="text-4xl font-bold text-gray-800 mb-12 border-b-4 border-gray-800 inline-block pb-1"
+      >
+        Get In Touch
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div>
+          <h2 class="text-2xl font-bold text-gray-800 mb-8">
+            Contact Information
+          </h2>
+
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="mt-1 mr-4 text-gray-700">
+                <i class="fa-regular fa-envelope text-xl"></i>
+              </div>
+              <div>
+                <p class="font-semibold text-gray-800">Email</p>
+                <a
+                  href="mailto:collabwithsunjay@gmail.com"
+                  class="text-gray-600 hover:text-blue-600 transition-colors"
+                  >collabwithtufailahmed@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="mt-1 mr-4 text-gray-700">
+                <i class="fa-solid fa-phone text-xl"></i>
+              </div>
+              <div>
+                <p class="font-semibold text-gray-800">Phone</p>
+                <p class="text-gray-600">+92 349 3965161</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="mt-1 mr-4 text-gray-700">
+                <i class="fa-solid fa-location-dot text-xl"></i>
+              </div>
+              <div>
+                <p class="font-semibold text-gray-800">Location</p>
+                <p class="text-gray-600">Hyderabad Sindh, Pakistan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <h3 class="text-lg font-bold text-gray-800 mb-4">
+              Connect With Me
+            </h3>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-700 hover:bg-gray-800 hover:text-white transition-all"
+              >
+                <i class="fa-brands fa-github text-xl"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-700 hover:bg-gray-800 hover:text-white transition-all"
+              >
+                <i class="fa-brands fa-linkedin-in text-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-bold text-gray-800 mb-8">
+            Send Me a Message
+          </h2>
+          <form action="#" class="space-y-6">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Your Name</label
+              >
+              <input
+                type="text"
+                placeholder="Name"
+                class="w-full px-4 py-3 bg-white border border-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200 transition-all placeholder-gray-300"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Your Email</label
+              >
+              <input
+                type="email"
+                placeholder="Example@gmail.com"
+                class="w-full px-4 py-3 bg-white border border-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200 transition-all placeholder-gray-300"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Your Message</label
+              >
+              <textarea
+                rows="4"
+                placeholder="Hello Tufail, I'd like to discuss a project..."
+                class="w-full px-4 py-3 bg-white border border-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200 transition-all placeholder-gray-300"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full bg-[#333333] text-white py-4 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:bg-black transition-colors"
+            >
+              <i class="fa-regular fa-paper-plane"></i>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="assets/js/loadComponents.js"></script>
+  </body>
+</html>
