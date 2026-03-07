@@ -63,7 +63,7 @@ const username = {
   // Here first_name and last_name can be changed but username is reserve memory cant change
 };
 
-first_name = "Tofique Ahmed";
+// first_name = "Tofique Ahmed";
 console.log(username.first_name);
 
 console.log(username["first_name"]); // Ye kese huwa?

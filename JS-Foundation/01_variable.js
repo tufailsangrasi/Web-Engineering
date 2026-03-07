@@ -3,13 +3,15 @@ JavaScript, var keyword, let keyword, const keyword, Constants and Reassignment,
 Scope (Block Scope and Function Scope), Hoisting, Temporal Dead Zone, Dynamic Typing, 
 Type Checking using typeof, Primitive vs Reference Behavior, Objects and Arrays, Functions
 as Data Types, Best Practices for Variable Declarations
-*/
+
 
 var name = "Tufail";
 console.log(name);
 
 name = "Ahmed";
 console.log(name);
+
+
 
 let obj1 = { value: 10 };
 //console.log(obj1.value);
@@ -30,3 +32,21 @@ for (names in arr) {
 // Nodes js printing method
 process.stdout.write("Hello World");
 process.stdout.write("Hello World");
+*/
+
+let firstname = "Tufail";
+let lastname = "Ahmed";
+// console.log(typeof firstname);
+
+// document.write(lastname);
+
+let matrix = [1, 2, 3, 5];
+console.log(matrix.length);
+
+// for (let i = 0; i < matrix.length; i++) {
+//   console.log(matrix[i]);
+// }
+// matrix.forEach(el => {
+//   console.log(el);
+
+// });

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <input
+      type="number"
+      name="first_num"
+      id="num1"
+      placeholder="Enter First Number"
+    />
+    <input
+      type="number"
+      name="second_num"
+      id="num2"
+      placeholder="Enter Second Number"
+    />
+
+    <br /><br />
+
+    <button onclick="add()">Add</button>
+    <button onclick="Subtract()">Subtract</button>
+    <button>Multiply</button>
+    <button>Divide</button>
+
+    <p id="Result"></p>
+  </body>
+  <script>
+    // Window -> DOM (element) + BOM (Screen , Navigator , location) + Javascript (List , object , class)
+    console.log(document);
+    function add() {
+      let num1 = parseInt(document.getElementById("num1").value);
+      let num2 = parseInt(document.getElementById("num2").value);
+
+      let sum = num1 + num2;
+
+      document.getElementById("Result").innerText = "Result" + sum;
+    }
+
+    function Subtract() {
+      let num1 = parseInt(document.getElementById("num1").value);
+      let num2 = parseInt(document.getElementById("num2").value);
+
+      let subtraction = num1 - num2;
+
+      document.getElementById("Result").innerText =
+        "Result" + " " + subtraction;
+    }
+
+    // Navigator in cdn api
+    // Location api (window.location)
+  </script>
+</html>
+
+<script>
+  /* 
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>JS Demo</title>
+
+      <style>
+        body {
+          color: #000;
+        }
+      </style>
+    </head>
+    <body>
+      <h1 id="h1">Hello</h1>
+      <p>Lorem ipsum dolor sit.</p>
+
+      <p class="text">Lorem, ipsum.</p>
+      <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, optio?
+      </p>
+
+      <input type="text" id="name" value="Ahmed" placeholder="Enter your name" />
+    </body>
+  </html>
+
+
+    let value = (document.getElementById("name").value = "Tufail Ahmed");
+    console.log(value);
+    let para = document.getElementsByClassName("text");
+    //console.log(para[0].innerHTML);
+    //console.log(para[1].innerHTML);
+
+    let element = document.getElementById("h1");
+    //console.log(element);
+    // console.log(window);
+
+    let element_2 = document.getElementsByTagName("p");
+    for (let i = 0; i <= element_2.length; i++) {
+      //console.log(element_2[i]);
+    }
+    //console.log(element_2[0]);
+  */
+</script>
+
+// Function and arrow function
